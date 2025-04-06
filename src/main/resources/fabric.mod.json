@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "deamsmod",
+	"version": "${version}",
+	"name": "DEAMS Mod",
+	"description": "Featues DEAM would like in game",
+	"authors": [
+		"DEAMJAVA"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/deamsmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.deamjava.deamsmod.DeamsMod"
+		],
+		"fabric-datagen": [
+			"net.deamjava.deamsmod.DeamsModDataGenerator"
+		],
+		"client": [
+			"net.deamjava.deamsmod.DeamsModClient"
+		]
+	},
+	"mixins": [
+		"deamsmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.12",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
