@@ -1,5 +1,6 @@
 package net.deamjava.deamsmod;
 
+import net.deamjava.deamsmod.block.ModBlocks;
 import net.deamjava.deamsmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class DeamsMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

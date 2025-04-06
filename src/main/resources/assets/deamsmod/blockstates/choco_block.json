@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "" : {
+      "model": "deamsmod:block/choco_block"
+    }
+  }
+}

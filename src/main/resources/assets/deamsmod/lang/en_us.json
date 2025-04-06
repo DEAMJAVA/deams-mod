@@ -1,4 +1,7 @@
 {
   "item.deamsmod.choco": "Choco",
-  "item.deamsmod.raw_choco": "Raw Choco"
+  "item.deamsmod.raw_choco": "Raw Choco",
+
+
+  "block.deamsmod.choco_block": "Block Of Choco"
 }
